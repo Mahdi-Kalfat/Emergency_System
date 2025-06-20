@@ -1,0 +1,19 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar-container {
+  flex-shrink: 0;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.main-content {
+  flex-grow: 1;
+  overflow: auto;
+}
